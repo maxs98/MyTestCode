@@ -35,3 +35,4 @@ class CsdnSpider(scrapy.Spider):
         item['title']= title
         item['time'] = time
         yield item
+        
